@@ -50,7 +50,7 @@ steps:
     echo "Common.TestResultsDirectory " $(Common.TestResultsDirectory)
     echo "..."
     echo "System Vars"
-    echo "..."
+    echo ".. ."
     echo "System.AccessToken" $(System.AccessToken)
     echo "System.CollectionId" $(System.CollectionId)
     echo "System.DefaultWorkingDirectory" $(System.DefaultWorkingDirectory)
