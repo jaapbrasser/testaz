@@ -19,14 +19,8 @@ steps:
     date > timestamp.log
     git config --global user.email "noreply@jaapbrasser.com"
     git config --global user.name "jaapbrasser"
-    git config --global commit.gpgsign true
-    echo "secret?"
-    echo $MAPPED_GPGRSA
-    git config --global user.signingkey $MAPPED_GPGRSA
     git status
     git branch
     git add *
     git commit -m "Updating based on merge to master $(date)"
     git push -u origin master
-  env:
-    MAPPED_GPGRSA: $(GPGRSA2)
