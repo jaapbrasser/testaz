@@ -21,7 +21,7 @@ steps:
     git config --global user.name "jaapbrasser"
     git config --global commit.gpgsign true
     echo "secret?"
-    echo $(MAPPED_GPGRSA)
+    echo $MAPPED_GPGRSA
     git config --global user.signingkey $MAPPED_GPGRSA
     git status
     git branch
