@@ -16,6 +16,8 @@ steps:
 - checkout: self
   persistCredentials: true
 - script: |
+    git config --global user.email "noreply@jaapbrasser.com"
+    git config --global user.name "jaapbrasser"
     git branch master
     git checkout master
     date > timestamp.log
