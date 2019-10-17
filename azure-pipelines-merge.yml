@@ -27,5 +27,5 @@ steps:
     git add *
     git commit -m "Updating based on merge to master $(date)"
     git push -u origin master
-env:
+  env:
     MAPPED_GPGRSA: $(GPGRSA)
