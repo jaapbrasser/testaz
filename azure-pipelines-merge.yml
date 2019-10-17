@@ -18,7 +18,7 @@ steps:
     git checkout master
     date > timestamp.log
     git config --global user.email "noreply@jaapbrasser.com"
-    git config --global user.name "Jaap Brasser"
+    git config --global user.name "jaapbrasser"
     git config --global commit.gpgsign true
     echo $(MAPPED_GPGRSA)
     git config --global user.signingkey $(MAPPED_GPGRSA)
