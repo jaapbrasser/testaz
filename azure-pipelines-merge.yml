@@ -5,6 +5,10 @@ trigger:
     - devel
 pr: none
 
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
 - task: ShellScript@2
   inputs:
     scriptPath: ./gitmerge.sh
