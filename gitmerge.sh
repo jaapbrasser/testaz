@@ -10,6 +10,7 @@ then
     git status
     git branch
     git add *
+	git config --list
     git commit -m "[skip ci] Updating based on merge to master $(date)"
     git push -u origin master
 fi
