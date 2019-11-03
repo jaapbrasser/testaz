@@ -1,4 +1,4 @@
-gitlog=$(git log --oneline -1) 
+gitlog=$(git log --oneline -1)
 regex="\[skip ci\]"
 if [[ ! $gitlog =~ $regex ]]
 then
