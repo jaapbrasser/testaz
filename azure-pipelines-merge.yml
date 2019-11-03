@@ -10,7 +10,7 @@ pool:
 
 steps:
 - checkout: self
-persistCredentials: true
+  persistCredentials: true
 - task: ShellScript@2
   inputs:
     scriptPath: ./gitmerge.sh
