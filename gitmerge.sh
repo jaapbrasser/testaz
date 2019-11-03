@@ -12,5 +12,5 @@ then
     git add *
 	git config --list
     git commit -m "[skip ci] Updating based on merge to master $(date)"
-    git push -u git@github.com:jaapbrasser/testaz.git
+    git push -u origin master
 fi

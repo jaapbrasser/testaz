@@ -9,6 +9,8 @@ pool:
   vmImage: 'ubuntu-latest'
 
 steps:
+- checkout: self
+persistCredentials: true
 - task: ShellScript@2
   inputs:
     scriptPath: ./gitmerge.sh
