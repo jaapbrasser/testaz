@@ -11,4 +11,6 @@ pool:
 steps:
 - checkout: self
   persistCredentials: true
-- script: ./gitmerge.sh
+- script: |
+  ls
+  ./gitmerge.sh
