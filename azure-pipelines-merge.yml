@@ -12,5 +12,5 @@ steps:
 - checkout: self
   persistCredentials: true
 - script: |
-  ls
-  ./gitmerge.sh
+    ls
+    ./gitmerge.sh
