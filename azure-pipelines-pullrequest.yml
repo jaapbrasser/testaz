@@ -4,6 +4,7 @@ pr:
     include:
     - master
     - devel
+    - release
 
 pool:
   vmImage: 'ubuntu-latest'
